@@ -1,6 +1,4 @@
-
 name: CI/CD para "La Senda del Jaguar"
-
 on:
   push:
     branches:
@@ -35,4 +33,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: la-senda-del-jaguar-apk
-          path: Build/lasenda_del_jaguar.apk
+          path: Build/lasenda_del_jaguar.apkd
+name: CI/CD para "La Senda del Jaguar"
+on:
+  push:
+    branches:
+      - main
